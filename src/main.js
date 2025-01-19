@@ -15,8 +15,6 @@ const searchFormEl = document.querySelector('.js-search-form');
 const galleryEl = document.querySelector('.js-gallery');
 const loader = document.querySelector('.gallery-load');
 
-// console.log(searchFormEl); шукаємо форму на сторінці
-
 const onSearchFormSubmit = event => {
   event.preventDefault();
 
